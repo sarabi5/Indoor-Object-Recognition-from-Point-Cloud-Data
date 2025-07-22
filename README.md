@@ -1,5 +1,4 @@
 # Indoor-Object-Recognition-from-Point-Cloud-Data
-# Indoor-Object-Recognition-from-LiDAR-Point-Cloud-Data
 This repository is part of a funded research project at Arizona State University focused on indoor object detection to support facility management tasks. The project utilizes 3D point cloud data collected using the Matterport Pro 3D scanner which collected both RGB and 3D data.
 In the first phase of the project, the goal was to detect and classify commonly used chair models within the scanned indoor environments. Each chair instance in the point cloud data was manually segmented and labeled in CloudCompare software according to its specific model, as identified by the manufacturer.
 To enhance the data quality, a noise reduction step was applied using MATLAB’s pcdenoise function. The effectiveness of this step is illustrated in the sample image provided below, which shows significant noise removal.
